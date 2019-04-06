@@ -84,3 +84,5 @@ gem 'carrierwave', '~> 1.0'
 gem "figaro"
 
 gem "fog-aws"
+
+gem "carrierwave-aws"
