@@ -39,3 +39,11 @@ Run `rake db:create`
 In a separate terminal, change the directory `cd /vagrant/src/grammable`
 
 Start your server by running `rails server -b 0.0.0.0 -p 3000`
+
+# Grammable
+
+### Overview
+
+An application, built with Ruby on Rails, that focuses primarily on test driven development. Users are able to upload a picture with a caption which then can be edited or deleted. 
+
+### Code Structure
