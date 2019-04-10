@@ -1,3 +1,5 @@
+Click [here](https://grammable-zoe-kramer.herokuapp.com/) to visit Grammable.
+
 # Set Up Vagrant
 
 Click [here](https://github.com/university-bootcamp/coding-environment/blob/master/windows-vagrant.md) to find the instructions for setting up Vagrant.
