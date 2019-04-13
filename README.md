@@ -1,5 +1,21 @@
 Click [here](https://grammable-zoe-kramer.herokuapp.com/) to visit Grammable.
 
+# Grammable
+
+### Overview
+
+An application, built with Ruby on Rails, that focuses primarily on test driven development. Users are able to upload a picture with a caption which then can be edited or deleted. 
+
+### Code Structure
+
+**Models** - 
+
+**Views** - 
+
+**Controllers** -
+
+**Gemfiles** -
+
 # Set Up Vagrant
 
 Click [here](https://github.com/university-bootcamp/coding-environment/blob/master/windows-vagrant.md) to find the instructions for setting up Vagrant.
@@ -40,10 +56,3 @@ In a separate terminal, change the directory `cd /vagrant/src/grammable`
 
 Start your server by running `rails server -b 0.0.0.0 -p 3000`
 
-# Grammable
-
-### Overview
-
-An application, built with Ruby on Rails, that focuses primarily on test driven development. Users are able to upload a picture with a caption which then can be edited or deleted. 
-
-### Code Structure
