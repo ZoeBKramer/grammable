@@ -26,6 +26,26 @@ Allows the user to have many grams as well as comments. We use the devise gem in
 
 **Controllers** -
 
+*Grams Controller* - [`app\controllers\grams_controller.rb`](https://github.com/ZoeBKramer/grammable/blob/master/app/controllers/grams_controller.rb)
+
+* Index Method: Displays all the grams on the page.
+
+* Destroy Method: Finds the gram by ID and destroys it.
+
+* Update Method: Updates the gram, if the data entered is valid.
+
+* Edit Method: Finds the gram by ID.
+
+* Show Method: Finds the gram by ID.
+
+* New Method: Initializes the gram object.
+
+* Create Method: Adds a new gram, if valid, into the database.
+
+*Comments Controller* - [`app\controllers\comments_controller.rn`](https://github.com/ZoeBKramer/grammable/blob/master/app/controllers/comments_controller.rb)
+
+* Create Method: Finds the gram by ID and adds a comment, if valid, into the database.
+
 **Gemfiles** -
 
 [bootstrap gem](https://github.com/twbs/bootstrap-rubygem) - helps format the page
