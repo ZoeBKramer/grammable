@@ -24,6 +24,28 @@ Allows the user to have many grams as well as comments. We use the devise gem in
 
 **Views** - 
 
+*Grams Index View* - [`app\views\grams\index.html.erb`](https://github.com/ZoeBKramer/grammable/blob/master/app/views/grams/index.html.erb)
+
+Displays every gram in the database as well as the comments posted under each gram.
+
+![The Grams Index View Image](https://raw.githubusercontent.com/ZoeBKramer/grammable/master/app/assets/images/Grammable/Grammable.png)
+
+*Grams Edit View* - [`app\views\grams\edit.html.erb`](https://github.com/ZoeBKramer/grammable/blob/master/app/views/grams/edit.html.erb)
+
+Creates the form that the user can use to update the gram's data.
+
+![The Grams Edit View Image](https://raw.githubusercontent.com/ZoeBKramer/grammable/master/app/assets/images/Grammable/EditGram.png)
+
+*Grams New View* - [`app\views\grams\new.html.erb`](https://github.com/ZoeBKramer/grammable/blob/master/app/views/grams/new.html.erb)
+
+Creates the form that the user can enter a gram into.
+
+![The Grams New View Image](https://raw.githubusercontent.com/ZoeBKramer/grammable/master/app/assets/images/Grammable/NewGram.png)
+
+*Header* - [`app\views\layouts\application.html.erb`](https://github.com/ZoeBKramer/grammable/blob/master/app/views/layouts/application.html.erb)
+
+Controls what is displayed in the header on every page in the application.
+
 **Controllers** -
 
 *Grams Controller* - [`app\controllers\grams_controller.rb`](https://github.com/ZoeBKramer/grammable/blob/master/app/controllers/grams_controller.rb)
