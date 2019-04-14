@@ -10,6 +10,18 @@ An application, built with Ruby on Rails, that focuses primarily on test driven 
 
 **Models** - 
 
+*Gram Model* - [`app\models\gram.rb`](https://github.com/ZoeBKramer/grammable/blob/master/app/models/gram.rb)
+
+Handles the validations for entering in a new gram. It also ties the gram to the user who created it and allows it to have many comments. We use the Carrierwave gem to handle the actual photo uploading, using AWS as our storage.
+
+*Comment Model* - [`app\models\comment.rb`](https://github.com/ZoeBKramer/grammable/blob/master/app/models/comment.rb)
+
+Ties the comment to the gram it was posted under as well as the user who posted it. 
+
+*User Model* - [`app\model\user.rb`](https://github.com/ZoeBKramer/grammable/blob/master/app/models/user.rb)
+
+Allows the user to have many grams as well as comments. We use the devise gem in this model to handle user authentication.
+
 **Views** - 
 
 **Controllers** -
