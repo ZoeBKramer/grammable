@@ -28,6 +28,20 @@ Allows the user to have many grams as well as comments. We use the devise gem in
 
 **Gemfiles** -
 
+[bootstrap gem](https://github.com/twbs/bootstrap-rubygem) - helps format the page
+
+[simple-form gem](https://github.com/plataformatec/simple_form) - creates the form in which data can be entered into
+
+[devise gem](https://github.com/plataformatec/devise) - we used this gem for the authentication of users
+
+[carrierwave gem](https://github.com/carrierwaveuploader/carrierwave) - provides a simple and extremely flexible way to upload files from Ruby applications
+
+[figaro gem](https://github.com/laserlemon/figaro) - this gem secures sensitive information (ie. secret keys) by not pushing it to Github, only production
+
+[fog-aws gem](https://github.com/fog/fog-aws) - supports Amazon Web Services
+
+[carrierwave-aws gem](https://github.com/sorentwo/carrierwave-aws) - officially supported AWS-SDK library for S3 storage rather than relying on fog
+
 # Set Up Vagrant
 
 Click [here](https://github.com/university-bootcamp/coding-environment/blob/master/windows-vagrant.md) to find the instructions for setting up Vagrant.
